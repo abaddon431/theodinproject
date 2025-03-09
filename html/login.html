@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-banner">
+            <img src="odin-lined.png" alt="" width="15%">
+            ODIN
+        </div>
+    </div> 
+    <div class="main-bar">
+        <div class="main-paragraph">
+            <p>This is not a real online service! You know you need something like this is in your life to help you realize your deepest dreams.
+            <br>Sign up <em>now</em> to get started
+            <br>You <em>know</em> you want to</p><br>
+        </div>
+        <form class="main-form" method="post">
+            <fieldset class="main-fieldset">
+            <p> Let's do this!</p><br>
+            <div class="form-row">
+                <div>
+                    <label for="fname">First name</label>
+                    <input type="text" id="fname" name="fname" required="true">
+                </div>
+                <div>
+                    <label for="lname">Last name</label>
+                    <input type="text" id="lname" name="lname" required="true">
+                </div>
+            </div>
+            <div class="form-row">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required="true">
+                </div>
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" name="phone" required="true">
+                </div>
+            </div>
+            <div class="form-row">
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required="true">
+                </div>
+                <div>
+                    <label for="password">Confirm Password</label>
+                    <input type="password" id="confirm_password" name="confirm_password" required="true">
+                </div>
+            </div>
+            </fieldset>
+            <input type="submit" value="Create Account">
+        </form>
+    </div>
+</body>
+</html>
