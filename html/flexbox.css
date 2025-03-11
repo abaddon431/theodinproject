@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container>div{
+    padding: 60px;
+}
+
+.container>:nth-child(even){
+    border: 10px solid blue;
+    background-color: pink;
+}
+
+.container>:nth-child(odd){
+    border: 10px solid blue;
+    background-color: yellow;
+}
+
+.container{
+    background-color: grey;
+    padding: 60px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
