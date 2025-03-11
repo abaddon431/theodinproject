@@ -13,11 +13,11 @@ function getHand(isPlayer=false) {
     if (isPlayer == true) {
         const hand = prompt("Pick a hand: 1. Paper, 2. Scissor, 3. Rock");
         playerChoice = hands[hand-1];
-        playerChoice.player = "cpu";
+        playerChoice.player = "human";
     }
     else {
         playerChoice = hands[handPicker(0,2)];
-        playerChoice.player = "human";
+        playerChoice.player = "cpu";
     }
     
     return playerChoice;
