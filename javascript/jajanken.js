@@ -23,17 +23,15 @@ function getHand(isPlayer=false) {
     return playerChoice;
 }
 function getWinningHand(firstHand, secondHand) {
-    let winner;
     if (firstHand.beats === secondHand.hand){
-        winner = firstHand.player;
+        return firstHand.player;
     }
     else if (firstHand.hand === secondHand.hand){
-        winner = "draw" 
+        return "draw" 
     }
     else {
-        winner = secondHand.player
+        secondHand.player
     }
-    return winner;
 }
 
 function playHand(){
